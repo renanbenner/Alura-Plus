@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --botao-azul-efeito: #4998fa;
+    --fundo: #00030C;
+
+    --fonte-principal: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--fundo);
+}
+
+.apresentacao_tela1 {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url("../imagem/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+
+    color: var(--branco-principal);
+}
+
+.apresentacao_tela1_conteudo {
+    width: 32em;
+
+    margin-left: 8em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    font-family: var(--fonte-principal);
+}
+
+.apresentacao_tela1_titulo {
+    color: var(--branco-principal);
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.apresentacao_tela1_imagem {
+    margin: 1.5em 0 2em;
+}
+
+.apresentacao_tela1_opcao_a {
+    display: block;
+
+    width: 100%;
+
+    background-color: var(--botao-azul);
+
+    color: var(--branco-principal);
+    text-decoration: none;
+    text-align: center;
+
+    padding: 1em;
+
+    border-radius: 8px;
+
+    margin-bottom: 1em;
+
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.apresentacao_tela1_opcao_b {
+    display: block;
+
+    width: 100%;
+
+    background-color: transparent;
+
+    color: var(--branco-principal);
+    text-decoration: none;
+    text-align: center;
+
+    padding: 1em;
+
+    border: 1px solid var(--branco-principal);
+    border-radius: 8px;
+
+    margin-bottom: 1em;
+
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.apresentacao_tela1_subtítulo {
+    font-size: 0.75rem;
+    color: var(--cinza-secundario);
+    line-height: 1.5;
+}
+
+.apresentacao_tela2 {
+    display: flex;
+    align-items: center;
+}
+
+.apresentacao_tela2_conteudo{
+    text-align: left;
+    align-items: left;
+    font-family: var(--fonte-principal);
+    margin: 0 10em;
+}
+
+.apresentacao_tela2_titulo{
+    color: var(--branco-principal);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.3;
+    font-weight: bold;
+    margin-bottom: 0.1em;
+}
+
+.apresentacao_tela2_subtítulo {
+    font-size: 1rem;
+    color: var(--cinza-secundario);
+    line-height: 1.5;
+    width: 36.75em;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.apresentacao_tela2_imagem {
+    margin: 10.313em 4.313em 10.313em 10.313em;
+}
+
+.apresentacao_tela3_opcao_a {
+    display: block;
+
+    width: 11.875em;
+
+    background-color: var(--botao-azul);
+
+    color: var(--branco-principal);
+    text-decoration: none;
+    text-align: center;
+
+    padding: 1em;
+
+    border-radius: 8px;
+
+    margin-bottom: 1em;
+
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container__dispositivos {
+    margin-top: 16.5em;
+}
+
+.dispositivos__titulo {
+    text-align: center;
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5em 0;
+    list-style-type: none;
+}
+
+.dispositivos__lista__item {
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.rodape {
+    text-align: center;
+    margin: 7.5em 7.5em 6.25em 7.5em;
+}
+
+.rodape img {
+    margin-bottom: 2.5em;
+}
+
+.rodape__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    list-style-type: none;
+    margin-bottom: 1.5em;
+}
+
+.rodape__lista__link__item{
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+}
+
+.rodape__texto {
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-principal);
+    font-size: 0.875rem;
+    margin-bottom: 2.125em;
+}
+
+.rodape__lista a:hover{
+    color: var(--botao-azul);
+}
+
+.apresentacao_tela1_conteudo a:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--fundo);
+}
+
+.apresentacao_tela2_conteudo a:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--fundo);
+}
+
